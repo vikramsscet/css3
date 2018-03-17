@@ -1,0 +1,123 @@
+html, body{
+    height: 100%;
+}
+.header{
+    position: relative;
+    height:auto;
+    width:100%;
+    clear: both;
+}
+.body{
+    display: inline;
+    float: right;
+    height: 80%;
+    width: 80%;
+}
+.leftNav{
+    position: relative;
+    display: inline;
+    float: left;
+    background: #9E9E9E;
+    width: 20%;
+    height:80%;
+}
+.footer{
+    height: 9%;
+    background: yellow;
+    width:100%;
+    clear:both;
+    display: block;
+}
+.grid{
+    margin: 1%;
+    display: inline-block;
+    width : 20%;
+    height:20%;
+    background: orange;
+    border: 3px solid #73AD21;
+    overflow-y: auto;
+}
+.leftnavel{
+    text-align: center;
+    margin: 3%;
+    height: 30px;
+    width: 80%;
+    background: yellow;
+    position: relative;
+}
+.leftnavel:hover .subNavSec{
+    display: block;
+}
+.subNavSec{
+    display: none;
+    background: #EBF5FB;
+    position: absolute;
+    left:100%;
+    top:1%;
+    
+}
+.subNav{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #D1F2EB;
+    margin: 5px;
+}
+.logo{
+    float: left;
+    display: inline;
+    position: relative;
+    height: 100%;
+    width: 30%;
+}
+.headerNav{
+    overflow: hidden;
+    float: right;
+    display: inline;
+    position: relative;
+    height: 100%;
+    width: 70%;
+    background: #E5E7E9;
+}
+.headerNavEl{
+    text-align: center;
+    display: inline-block;
+    float: left;
+    height: 50%;
+    width: 50px;
+    background: #D4AC0D;
+    position: relative;
+    margin: 10px;
+}
+.headerLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.headerNavEl:hover{
+    background: yellow;
+}
+.subHeaderSec{
+    display: none;
+    position: fixed;
+    min-width: 100px;
+    width:auto;
+    background: #FFEB3B;
+    z-index: 1;
+}
+.subHeaderNavEl{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #D1F2EB;
+    margin: 5px;
+    width: auto;
+}
+.headerNavEl:hover .subHeaderSec{
+    display: block;
+}
+a{
+    display: block;
+}
+a:hover{
+    background-color: yellow;
+}
