@@ -1,0 +1,89 @@
+.notificationContainer{
+    display: flex;
+    background: aqua;
+    height:10%;
+}
+
+.headerContainer{
+    display:flex;
+    background: gray;
+    line-height: 3;
+    
+}
+
+.horizontalNav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.horizontalNav > div{
+    padding: 5px;
+    background: teal;
+    margin: 10px;
+    width: 100px;
+}
+
+.horizontalNav > div:hover{
+    background: yellow;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    background: silver;
+    height:400px;
+}
+
+.column{
+    background: silver;
+    flex:0 0 30%;
+    flex-direction: column;
+}
+.column > div{
+    margin: 10px;
+    padding: 5px;
+}
+.column > div:hover{
+    background: yellow;
+}
+
+.main{
+    background: lime;
+    flex:70%;
+}
+.main > .blogs{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.blogs > .title{
+    padding: 5px;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size:30px;
+}
+.blogs > .details{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size:13px;
+}
+.blogs > .text{
+    font-family:cursive;
+    font-size:20px;
+}
+.blogs > .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.gallery > div {
+    width : 70px;
+    height:50px;
+    background: yellow;    
+    margin: 5px;    
+}
+
+.footerContainer{
+    line-height: 3;
+    background: Fuchsia;
+}
