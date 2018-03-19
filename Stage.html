@@ -4,12 +4,12 @@
     <link rel="stylesheet" type="text/css" href="gen.css" />
 <title>Page Title</title>
 </head>
-<body onload="fun1">
+<body onload="singltonObj().init()">
 
     
     
     <div class="header">
-        <div class="logo"><img class="headerLogo" src="batman.png"></img></div>
+        <div class="logo" title="Click Me to start Simulation."><img class="headerLogo" src="batman.png"></img></div>
         
         <div class="headerNav">
             <div class="headerNavEl">
@@ -44,6 +44,7 @@
     </div>
     
     <div class="body">
+        <div class="circle"></div>
         <div class="grid">
             
         </div>

@@ -12,12 +12,16 @@ html, body{
     float: right;
     height: auto;
     width: 80%;
+    background-image: url(imgs/img_flwr.gif), url(imgs/paper.gif) ;
+    background-repeat: no-repeat, repeat;
+    background-position: right bottom, left top;
 }
 .leftNav{
     position: relative;
     display: inline;
     float: left;
     background: #9E9E9E;
+    background: linear-gradient(to bottom right, #FFEBEE, #A5D6A7);
     width: 20%;
     height:80%;
 }
@@ -44,6 +48,7 @@ html, body{
     height: 30px;
     width: 80%;
     background: yellow;
+    background: linear-gradient(to bottom right, #FFCDD2, #AB47BC);
     position: relative;
 }
 .leftnavel:hover{
@@ -92,6 +97,8 @@ html, body{
     position: relative;
     margin: 10px;
     padding: 5px 5px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 .headerLogo{
     display: block;
@@ -125,4 +132,19 @@ a{
 }
 a:hover{
     background-color: yellow;
+}
+.tooltip{
+    position:fixed;
+    background: pink;
+    top:0px;
+    left: 0px;
+}
+
+.circle{
+    position: absolute;
+    border-radius: 25px;
+    background: #73AD21;
+    width: 50px;
+    height: 50px; 
+    display: none;
 }
