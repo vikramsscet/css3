@@ -31,12 +31,12 @@
     display:flex;
     flex-direction: row;
     background: silver;
-    height:400px;
+    min-height:400px;
 }
 
 .column{
     background: silver;
-    flex:0 0 30%;
+    flex:0 0 20%;
     flex-direction: column;
 }
 .column > div{
@@ -48,13 +48,18 @@
 }
 
 .main{
-    background: lime;
+    background: #F8F9F9;
     flex:70%;
 }
 .main > .blogs{
+    margin: 5px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main > .blogs:hover{
+    background: #D7DBDD;
 }
 .blogs > .title{
     padding: 5px;
@@ -71,7 +76,22 @@
     font-family:cursive;
     font-size:20px;
 }
-.blogs > .gallery {
+.imgView {
+    display: none;
+}
+.blogs > .images > img{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    box-shadow: 10px 10px 5px grey;
+    transition: width 3s, height 3s;
+}
+.blogs > .images > img:hover{
+    width: 500px;
+    height: 500px;
+}
+
+.main > .gallery {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
